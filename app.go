@@ -37,7 +37,7 @@ var connErr bool = false
 
 // TODO: create your own app at https://discord.com/developers/applications
 // and paste its Application ID here. You cannot reuse Da532's NS-RPC client ID.
-const clientID string = "PASTE_YOUR_DISCORD_APPLICATION_ID_HERE"
+const clientID string = "1544847435480834138"
 
 // Now points at YOUR repo's games.json instead of Da532/NS-RPC's.
 const gamesURL string = "https://raw.githubusercontent.com/LaxyDev64/WII-U-RPC/master/games.json"

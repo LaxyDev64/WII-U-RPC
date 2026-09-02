@@ -35,8 +35,12 @@ type Pins []string
 var gamesList Games
 var connErr bool = false
 
-const clientID string = "1114647533562646700"
-const gamesURL string = "https://raw.githubusercontent.com/Da532/NS-RPC/master/games.json"
+// TODO: create your own app at https://discord.com/developers/applications
+// and paste its Application ID here. You cannot reuse Da532's NS-RPC client ID.
+const clientID string = "PASTE_YOUR_DISCORD_APPLICATION_ID_HERE"
+
+// Now points at YOUR repo's games.json instead of Da532/NS-RPC's.
+const gamesURL string = "https://raw.githubusercontent.com/LaxyDev64/WII-U-RPC/master/games.json"
 
 func NewApp() *App {
 	return &App{}
@@ -142,7 +146,7 @@ func LoadPinJson() Pins {
 	if err != nil {
 		panic(err)
 	}
-	configDir = filepath.Join(configDir, "NS-RPC")
+	configDir = filepath.Join(configDir, "WII-U-RPC")
 	_, err = os.Stat(configDir)
 	if err != nil {
 		err = os.Mkdir(configDir, os.ModePerm)
@@ -177,7 +181,7 @@ func (a *App) PinGame(title string) {
 		pins = append(pins, title)
 	}
 	file, _ := json.Marshal(pins)
-	err = os.WriteFile(filepath.Join(configDir, "NS-RPC", "pinned.json"), file, os.ModePerm)
+	err = os.WriteFile(filepath.Join(configDir, "WII-U-RPC", "pinned.json"), file, os.ModePerm)
 	if err != nil {
 		panic(err)
 	}

@@ -21,7 +21,7 @@ func main() {
 	app := NewApp()
 
 	err := wails.Run(&options.App{
-		Title:             "NS-RPC",
+		Title:             "WII-U-RPC",
 		Width:             400,
 		Height:            600,
 		DisableResize:     true,
@@ -59,8 +59,8 @@ func main() {
 			WebviewIsTransparent: true,
 			WindowIsTranslucent:  true,
 			About: &mac.AboutInfo{
-				Title:   "NS-RPC",
-				Message: "An application to display your Switch Games in Discord.",
+				Title:   "WII-U-RPC",
+				Message: "An application to display your Wii U games in Discord.",
 				Icon:    icon,
 			},
 		},

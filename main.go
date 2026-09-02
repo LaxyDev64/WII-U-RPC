@@ -21,7 +21,7 @@ func main() {
 	app := NewApp()
 
 	err := wails.Run(&options.App{
-		Title:             "WII-U-RPC",
+		Title:             "Nintendo Wii U",
 		Width:             400,
 		Height:            600,
 		DisableResize:     true,

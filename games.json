@@ -39,5 +39,6 @@
   { "title": "Game & Wario", "img": "gw" },
   { "title": "Mario Party 10", "img": "mp10" },
   { "title": "Sonic Unleashed Recompiled (Homebrew)", "img": "sur" },
-  { "title": "Pac-Man and the Ghostly Adventures", "img": "pcw1" }
+  { "title": "Pac-Man and the Ghostly Adventures", "img": "pcw1" },
+  { "title": "Pac-Man Colletions virtual console", "img": "pc99" }
 ]

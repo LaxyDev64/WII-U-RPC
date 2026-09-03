@@ -38,5 +38,6 @@
   { "title": "Wii Sports Club", "img": "wsc" },
   { "title": "Game & Wario", "img": "gw" },
   { "title": "Mario Party 10", "img": "mp10" },
-  { "title": "Sonic Unleashed Recompiled (Homebrew)", "img": "sur" }
+  { "title": "Sonic Unleashed Recompiled (Homebrew)", "img": "sur" },
+  { "title": "Pac-Man and the Ghostly Adventures", "img": "pcw1" }
 ]
